@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.seis{
+   background-color: red;  
+}
+
+
+.dos{
+    color: black ;
+    background-color :yellow;
+}
+
+.tres{
+    color: black ;
+    background-color: limegreen
+}
+
+.cua{
+    color: black ;
+    background-color: blue;
+}
+.cin{
+    color: black ;
+    background-color: gray;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #E8E8E8;
+}
+
+
+
+
+header div{
+    background-image: url(../img/logo.png);
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    margin: 15px 15px 15px 40px;
+    text-align: center;
+    
+}
+
+
+
+
+li{
+    background-color: #9B7B99;
+    padding: 5px;
+    list-style: none;
+    margin: 15px;
+    padding: 13px 35px 13px 35px;
+    
+}
+
+
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+     font-size: 25px;
+    
+}
