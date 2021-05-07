@@ -16,8 +16,8 @@ h1{
  
     text-align: center;
     padding: 45px 13px 9px 13px;
-    margin: 185px 425px 35px 425px;
     color: #fff;
+    font-size: 60px;
 }
 
 
@@ -26,8 +26,8 @@ h2{
    
     text-align: center;
     padding: 30px;
-    margin: 85px 325px 5px 325px;
     color: #fff;
+    font-size: 30px;
 }
 
 .img1{
@@ -49,15 +49,14 @@ section{
 }
 
 body{
-    background-color: #DFDFDF; 
-    
+
 
 }
-a{
+.boton{
     background-color: #4A4A4A;
     border-radius: 20px;
-    padding: 10px 35px 10px 35px;
-    
+    padding: 15px 35px 15px 35px;
+    font-size: 25px;
     text-decoration: none;
     color:#fff;
     
@@ -71,8 +70,6 @@ footer{
     background-color: #fff;
     text-align: center;
     padding: 0px 0px 260px 0px;
-    margin: 150px 0px auto 0px;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
