@@ -5,27 +5,60 @@
 
 
 .seis{
-   background-color: red;  
+   background-color: red;
+    color:#FFFAF0;
+    padding: 2px;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;  
 }
 
 
 .dos{
-    color: black ;
-    background-color :yellow;
+    background-color: yellow;
+    color:#FFFAF0;
+    padding: 2px;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
 }
 
 .tres{
     color: black ;
-    background-color: limegreen
+    background-color: limegreen;
+        
+    color:#FFFAF0;
+    padding: 2px;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
 }
 
 .cua{
-    color: black ;
-    background-color: blue;
+     background-color: blue;
+    color:#FFFAF0;
+    padding: 2px;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
 }
 .cin{
-    color: black ;
     background-color: gray;
+    color:#FFFAF0;
+    padding: 2px;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
 }
 
 
@@ -33,7 +66,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: #E8E8E8;
+    
 }
 
 
@@ -41,34 +74,23 @@ header{
 
 header div{
     background-image: url(../img/logo.png);
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: #fff;
     margin: 15px 15px 15px 40px;
     text-align: center;
     
 }
 
-
-
-
-li{
-    background-color: #9B7B99;
-    padding: 5px;
-    list-style: none;
-    margin: 15px;
-    padding: 13px 35px 13px 35px;
-    
-}
-
-
-
-
-
-ul{
-    display: flex;
+.navegador{
+     display: flex;
     flex-direction: row;
     justify-content:space-around;
-     font-size: 25px;
+    margin-top: 8px;
+    width: 650px;
     
+}
+a{
+    text-decoration: none
+        
 }
